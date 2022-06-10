@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar, .offcanvas{
+    background-color: #C4BA8B;
+}
+.homepage{
+    padding: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("glasses.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:100%;
+    height:auto;
+    padding-bottom: 300px;
+    padding-top: 300;
+    color: white;
+    text-align: center
+}
+.homepage h1{
+    font-size: 2.7em;
+    font-weight: bold;
+    text-align: center;
+}
+.homepage p{
+    font: italic;
+    font-weight: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+.homepage a{
+    height: 45px;
+    width: 140px;
+    background-color: lightsalmon;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    font: italic;
+}
+/* .homepage .btn2{
+    height: 45px;
+    width: 140px;
+    background-color: lightsalmon;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    font: italic;
+} */
+.myspace{
+    height: 20vh;
+}
+/* #welcomeText{
+    margin-top: 200px;
+    /* margin-left: 200px;
+    position: relative; */
+/*} */
+.servicePage{
+    padding-top: 50px;   
+    width:100%;
+    height:auto;
+    padding-bottom: 230px;
+    /* border-radius:10px; */
+    color:black;
+    background-color: #EACDA9;
+}
+
+.servicePage h1, h6{
+    text-align: center;
+    font-weight: bold;
+}
+#blah{
+    background-color: red;
+}
+
+.servicePage .btn1, .btn2{
+    height: 45px;
+    width: 140px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    font: italic;
+}
+#servicePageId .card{
+    border-radius: 110px;
+    background-color: #3C656C;
+    border-color: black;
+    color: white;
+    border-width: 5px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.aboutUs .card{
+    border-radius: 10px;
+    background-color: #3C656C;
+    border-color: black;
+    color: white;
+    border-width: 5px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+
+/* .card{
+  
+} */
+
+.btn{
+    margin-top: auto;
+}
+
+.aboutUs{
+    padding-top: 0px;   
+    width:100%;
+    height:auto;
+    padding-bottom: 150PX;
+    /* border-radius:10px; */
+    color:black;
+    background-color: #C4BA8B;
+}
+/* .aboutUs img{
+    height: auto;
+    max-width: 100%;
+    border-radius: 1000px;
+    float: left;
+} */
+/* #about-main{
+    display: flex;
+    align-items: center;
+} */
+.aboutUs h1, h6{
+    text-align: center;
+    font-weight: bold;
+}
+/* #serviceBoxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+} */
+/* #testID{
+    background-color: aqua;
+    width: 100%;
+} */
+
+.experts{
+    padding-top: 50px;   
+    width:100%;
+    height:auto;
+    padding-bottom: 230px;
+    /* border-radius:10px; */
+    color:black;
+    background-color: #EACDA9;
+}
+
+.experts h1, h6{
+    text-align: center;
+    font-weight: bold;
+}
+
+.experts .card{
+    border-radius: 10px;
+    background-color: #809D83;
+    border-color: black;
+    color: white;
+    border-width: 5px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.book{
+    padding-top: 50px;   
+    width:100%;
+    height:auto;
+    padding-bottom: 230px;
+    /* border-radius:10px; */
+    color:black;
+    background-color: #C4BA8B;
+}
+.book h1, h6{
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact{
+    padding-top: 50px;   
+    width:100%;
+    height:auto;
+    padding-bottom: 50px;
+    /* border-radius:10px; */
+    color:black;
+    background-color: #EACDA9;
+}
+
+.contact h1, h6{
+    text-align: center;
+    font-weight: bold;
+}
